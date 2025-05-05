@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.17)  5 MAY 2025 16:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.17)  5 MAY 2025 16:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -967,24 +967,24 @@ LaTeX Warning: Label `fig:kernel' multiply defined.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
  (/opt/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count362
@@ -1015,7 +1015,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 26.
+Package hyperref Info: Link coloring OFF on input line 22.
 
 (./main.out) (./main.out)
 \@outlinefile=\write5
@@ -1060,24 +1060,31 @@ Package hyperref Info: Link coloring OFF on input line 26.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 29.
 
-(/opt/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 29.
-
-
-(/opt/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (./main.toc
 
 [1
 
-{/opt/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/opt/texlive/2
-025/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolE.enc}{/opt/texlive/2025/texmf-
-dist/fonts/enc/dvips/mnsymbol/MnSymbolD.enc}{/opt/texlive/2025/texmf-dist/fonts
-/enc/dvips/mnsymbol/MnSymbolC.enc}]
+{/opt/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./main.toc
+LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
+(/opt/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
+
+(/opt/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.35 ... {5.1.1}Analytic}{22}{subsubsection.5.1.1}
+                                                  % [1{/opt/texlive/2025/texmf-
+dist/fonts/enc/dvips/mnsymbol/MnSymbolE.enc}{/opt/texlive/2025/texmf-dist/fonts
+/enc/dvips/mnsymbol/MnSymbolD.enc}{/opt/texlive/2025/texmf-dist/fonts/enc/dvips
+/mnsymbol/MnSymbolC.enc}]
 
 [2])
 \tf@toc=\write6
@@ -1104,9 +1111,10 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 
 
-[4{/opt/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/opt
-/texlive/2025/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolF.enc}]
-<codes/codes_step/plotsstep/case1step.png, id=421, 1110.0672pt x 544.9158pt>
+[4{/opt/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+
+[5{/opt/texlive/2025/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolF.enc}]
+<codes/codes_step/plotsstep/case1step.png, id=443, 1110.0672pt x 544.9158pt>
 File: codes/codes_step/plotsstep/case1step.png Graphic file (type png)
 <use codes/codes_step/plotsstep/case1step.png>
 Package pdftex.def Info: codes/codes_step/plotsstep/case1step.png  used on inpu
@@ -1114,21 +1122,21 @@ t line 91.
 (pdftex.def)             Requested size: 344.005pt x 168.86394pt.
 
 
-[5]
-
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 94.
 
 
 
 [6 <./codes/codes_step/plotsstep/case1step.png>]
-<codes/codes_step/plotsstep/case2step.png, id=456, 1110.0672pt x 544.9158pt>
+<codes/codes_step/plotsstep/case2step.png, id=459, 1110.0672pt x 544.9158pt>
 File: codes/codes_step/plotsstep/case2step.png Graphic file (type png)
 <use codes/codes_step/plotsstep/case2step.png>
 Package pdftex.def Info: codes/codes_step/plotsstep/case2step.png  used on inpu
 t line 144.
 (pdftex.def)             Requested size: 344.005pt x 168.86394pt.
 
+
+[7]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 155.
@@ -1141,10 +1149,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `subscript' on input line 155.
 
-
-
-[7 <./codes/codes_step/plotsstep/case2step.png>]
-<codes/codes_step/plotsstep/case3step.png, id=471, 1110.0672pt x 544.9158pt>
+<codes/codes_step/plotsstep/case3step.png, id=481, 1110.0672pt x 544.9158pt>
 File: codes/codes_step/plotsstep/case3step.png Graphic file (type png)
 <use codes/codes_step/plotsstep/case3step.png>
 Package pdftex.def Info: codes/codes_step/plotsstep/case3step.png  used on inpu
@@ -1153,8 +1158,10 @@ t line 183.
 
 
 [8{/opt/texlive/2025/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolA.enc} <./code
-s/codes_step/plotsstep/case3step.png>]
-<codes/codes_step/plotsstep/comparsionof123.png, id=484, 1110.0672pt x 544.9158
+s/codes_step/plotsstep/case2step.png>]
+
+[9 <./codes/codes_step/plotsstep/case3step.png>]
+<codes/codes_step/plotsstep/comparsionof123.png, id=499, 1110.0672pt x 544.9158
 pt>
 File: codes/codes_step/plotsstep/comparsionof123.png Graphic file (type png)
 <use codes/codes_step/plotsstep/comparsionof123.png>
@@ -1172,10 +1179,10 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 
 
-[9 <./codes/codes_step/plotsstep/comparsionof123.png>]
+[10 <./codes/codes_step/plotsstep/comparsionof123.png>]
 
-[10]
-<codes/codes_exp/plotseax/standardkernelvaryinga.png, id=508, 1110.0672pt x 544
+[11]
+<codes/codes_exp/plotseax/standardkernelvaryinga.png, id=528, 1110.0672pt x 544
 .9158pt>
 File: codes/codes_exp/plotseax/standardkernelvaryinga.png Graphic file (type pn
 g)
@@ -1183,7 +1190,7 @@ g)
 Package pdftex.def Info: codes/codes_exp/plotseax/standardkernelvaryinga.png  u
 sed on input line 70.
 (pdftex.def)             Requested size: 344.005pt x 168.86394pt.
-<codes/codes_exp/plotseax/standardkernelcaryingT.png, id=509, 1110.0672pt x 544
+<codes/codes_exp/plotseax/standardkernelcaryingT.png, id=529, 1110.0672pt x 544
 .9158pt>
 File: codes/codes_exp/plotseax/standardkernelcaryingT.png Graphic file (type pn
 g)
@@ -1193,8 +1200,6 @@ sed on input line 76.
 (pdftex.def)             Requested size: 344.005pt x 168.86394pt.
 
 
-[11 <./codes/codes_exp/plotseax/standardkernelvaryinga.png>]
-
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 81.
 
@@ -1204,8 +1209,11 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 
 
-[12 <./codes/codes_exp/plotseax/standardkernelcaryingT.png>]
-<codes/codes_exp/plotseax/right side kernelvaryinga.png, id=532, 1110.0672pt x 
+[12 <./codes/codes_exp/plotseax/standardkernelvaryinga.png> <./codes/codes_exp/
+plotseax/standardkernelcaryingT.png>]
+
+[13]
+<codes/codes_exp/plotseax/right side kernelvaryinga.png, id=554, 1110.0672pt x 
 544.9158pt>
 File: codes/codes_exp/plotseax/right side kernelvaryinga.png Graphic file (type
  png)
@@ -1213,10 +1221,7 @@ File: codes/codes_exp/plotseax/right side kernelvaryinga.png Graphic file (type
 Package pdftex.def Info: codes/codes_exp/plotseax/right side kernelvaryinga.png
   used on input line 146.
 (pdftex.def)             Requested size: 344.005pt x 168.86394pt.
-
-
-[13]
-<codes/codes_exp/plotseax/right side kernelvaryingT.png, id=550, 1110.0672pt x 
+<codes/codes_exp/plotseax/right side kernelvaryingT.png, id=555, 1110.0672pt x 
 544.9158pt>
 File: codes/codes_exp/plotseax/right side kernelvaryingT.png Graphic file (type
  png)
@@ -1226,21 +1231,22 @@ Package pdftex.def Info: codes/codes_exp/plotseax/right side kernelvaryingT.png
 (pdftex.def)             Requested size: 344.005pt x 168.86394pt.
 
 
-[14 <./codes/codes_exp/plotseax/right side kernelvaryinga.png> <./codes/codes_e
-xp/plotseax/right side kernelvaryingT.png>]
-<codes/codes_exp/plotseax/case3a=0.png, id=560, 722.7pt x 361.35pt>
+[14 <./codes/codes_exp/plotseax/right side kernelvaryinga.png>]
+
+[15 <./codes/codes_exp/plotseax/right side kernelvaryingT.png>]
+<codes/codes_exp/plotseax/case3a=0.png, id=576, 722.7pt x 361.35pt>
 File: codes/codes_exp/plotseax/case3a=0.png Graphic file (type png)
 <use codes/codes_exp/plotseax/case3a=0.png>
 Package pdftex.def Info: codes/codes_exp/plotseax/case3a=0.png  used on input l
 ine 196.
 (pdftex.def)             Requested size: 193.50076pt x 96.74977pt.
-<codes/codes_exp/plotseax/case3a=-1.png, id=561, 722.7pt x 361.35pt>
+<codes/codes_exp/plotseax/case3a=-1.png, id=577, 722.7pt x 361.35pt>
 File: codes/codes_exp/plotseax/case3a=-1.png Graphic file (type png)
 <use codes/codes_exp/plotseax/case3a=-1.png>
 Package pdftex.def Info: codes/codes_exp/plotseax/case3a=-1.png  used on input 
 line 199.
 (pdftex.def)             Requested size: 193.50076pt x 96.74977pt.
-<codes/codes_exp/plotseax/case3a=1.png, id=562, 722.7pt x 361.35pt>
+<codes/codes_exp/plotseax/case3a=1.png, id=578, 722.7pt x 361.35pt>
 File: codes/codes_exp/plotseax/case3a=1.png Graphic file (type png)
 <use codes/codes_exp/plotseax/case3a=1.png>
 Package pdftex.def Info: codes/codes_exp/plotseax/case3a=1.png  used on input l
@@ -1248,22 +1254,22 @@ ine 204.
 (pdftex.def)             Requested size: 301.00192pt x 150.4978pt.
 
 
-[15 <./codes/codes_exp/plotseax/case3a=0.png> <./codes/codes_exp/plotseax/case3
-a=-1.png>]
+[16 <./codes/codes_exp/plotseax/case3a=0.png> <./codes/codes_exp/plotseax/case3
+a=-1.png> <./codes/codes_exp/plotseax/case3a=1.png>]
 
-[16 <./codes/codes_exp/plotseax/case3a=1.png>]) (./sin_1.tex
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1.
-
+[17]) (./sin_1.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 1.
 
 
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1.
 
-[17]
-<codes/codes_sin_1_and_arcsin/figures/amplitude_effect.png, id=599, 722.7pt x 4
+
+
+[18]
+<codes/codes_sin_1_and_arcsin/figures/amplitude_effect.png, id=616, 722.7pt x 4
 33.62pt>
 File: codes/codes_sin_1_and_arcsin/figures/amplitude_effect.png Graphic file (t
 ype png)
@@ -1273,8 +1279,8 @@ png  used on input line 24.
 (pdftex.def)             Requested size: 344.005pt x 206.4017pt.
 
 
-[18]
-<codes/codes_sin_1_and_arcsin/figures/frequency_effect.png, id=610, 578.16pt x 
+[19 <./codes/codes_sin_1_and_arcsin/figures/amplitude_effect.png>]
+<codes/codes_sin_1_and_arcsin/figures/frequency_effect.png, id=630, 578.16pt x 
 361.35pt>
 File: codes/codes_sin_1_and_arcsin/figures/frequency_effect.png Graphic file (t
 ype png)
@@ -1282,10 +1288,7 @@ ype png)
 Package pdftex.def Info: codes/codes_sin_1_and_arcsin/figures/frequency_effect.
 png  used on input line 40.
 (pdftex.def)             Requested size: 344.005pt x 215.00316pt.
-
-
-[19 <./codes/codes_sin_1_and_arcsin/figures/amplitude_effect.png>]
-<codes/codes_sin_1_and_arcsin/figures/kernel_width_effect.png, id=622, 722.7pt 
+<codes/codes_sin_1_and_arcsin/figures/kernel_width_effect.png, id=632, 722.7pt 
 x 433.62pt>
 File: codes/codes_sin_1_and_arcsin/figures/kernel_width_effect.png Graphic file
  (type png)
@@ -1314,7 +1317,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 
 [22]
-<codes/codes_sin_2/figs/compare.png, id=639, 686.565pt x 799.3062pt>
+<codes/codes_sin_2/figs/compare.png, id=650, 686.565pt x 799.3062pt>
 File: codes/codes_sin_2/figs/compare.png Graphic file (type png)
 <use codes/codes_sin_2/figs/compare.png>
 Package pdftex.def Info: codes/codes_sin_2/figs/compare.png  used on input line
@@ -1327,7 +1330,7 @@ Package pdftex.def Info: codes/codes_sin_2/figs/compare.png  used on input line
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 98.
 
-<codes/codes_sin_2/figs/amp.png, id=644, 1378.1889pt x 799.3062pt>
+<codes/codes_sin_2/figs/amp.png, id=655, 1378.1889pt x 799.3062pt>
 File: codes/codes_sin_2/figs/amp.png Graphic file (type png)
 <use codes/codes_sin_2/figs/amp.png>
 Package pdftex.def Info: codes/codes_sin_2/figs/amp.png  used on input line 103
@@ -1344,7 +1347,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\omega' on input line 109.
 
-<codes/codes_sin_2/figs/omega.png, id=645, 1378.1889pt x 799.3062pt>
+<codes/codes_sin_2/figs/omega.png, id=656, 1378.1889pt x 799.3062pt>
 File: codes/codes_sin_2/figs/omega.png Graphic file (type png)
 <use codes/codes_sin_2/figs/omega.png>
 Package pdftex.def Info: codes/codes_sin_2/figs/omega.png  used on input line 1
@@ -1357,7 +1360,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 118.
 
-<codes/codes_sin_2/figs/T.png, id=646, 1378.1889pt x 799.3062pt>
+<codes/codes_sin_2/figs/T.png, id=657, 1378.1889pt x 799.3062pt>
 File: codes/codes_sin_2/figs/T.png Graphic file (type png)
 <use codes/codes_sin_2/figs/T.png>
 Package pdftex.def Info: codes/codes_sin_2/figs/T.png  used on input line 123.
@@ -1365,7 +1368,7 @@ Package pdftex.def Info: codes/codes_sin_2/figs/T.png  used on input line 123.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<codes/codes_sin_2/figs/scaling.png, id=647, 1378.1889pt x 799.3062pt>
+<codes/codes_sin_2/figs/scaling.png, id=658, 1378.1889pt x 799.3062pt>
 File: codes/codes_sin_2/figs/scaling.png Graphic file (type png)
 <use codes/codes_sin_2/figs/scaling.png>
 Package pdftex.def Info: codes/codes_sin_2/figs/scaling.png  used on input line
@@ -1385,7 +1388,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\phi' on input line 136.
 
-<codes/codes_sin_2/figs/phi.png, id=654, 1378.1889pt x 799.3062pt>
+<codes/codes_sin_2/figs/phi.png, id=666, 1378.1889pt x 799.3062pt>
 File: codes/codes_sin_2/figs/phi.png Graphic file (type png)
 <use codes/codes_sin_2/figs/phi.png>
 Package pdftex.def Info: codes/codes_sin_2/figs/phi.png  used on input line 141
@@ -1397,7 +1400,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 [25 <./codes/codes_sin_2/figs/amp.png>]
-<codes/codes_sin_2/figs/all_varies.png, id=663, 859.65166pt x 570.933pt>
+<codes/codes_sin_2/figs/all_varies.png, id=674, 859.65166pt x 570.933pt>
 File: codes/codes_sin_2/figs/all_varies.png Graphic file (type png)
 <use codes/codes_sin_2/figs/all_varies.png>
 Package pdftex.def Info: codes/codes_sin_2/figs/all_varies.png  used on input l
@@ -1429,7 +1432,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 [30
 
 ]
-<codes/codes_sin_3_and_smoothening/figs/original_vs_convolved.png, id=694, 867.
+<codes/codes_sin_3_and_smoothening/figs/original_vs_convolved.png, id=706, 867.
 24pt x 433.62pt>
 File: codes/codes_sin_3_and_smoothening/figs/original_vs_convolved.png Graphic 
 file (type png)
@@ -1456,7 +1459,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 86.
 
-<codes/codes_sin_3_and_smoothening/figs/varying_tau_effect.png, id=703, 867.24p
+<codes/codes_sin_3_and_smoothening/figs/varying_tau_effect.png, id=714, 867.24p
 t x 433.62pt>
 File: codes/codes_sin_3_and_smoothening/figs/varying_tau_effect.png Graphic fil
 e (type png)
@@ -1467,7 +1470,7 @@ ect.png  used on input line 94.
 
 
 [32 <./codes/codes_sin_3_and_smoothening/figs/original_vs_convolved.png>]
-<codes/codes_sin_3_and_smoothening/figs/varying_T_pi_effect.png, id=710, 867.24
+<codes/codes_sin_3_and_smoothening/figs/varying_T_pi_effect.png, id=722, 867.24
 pt x 433.62pt>
 File: codes/codes_sin_3_and_smoothening/figs/varying_T_pi_effect.png Graphic fi
 le (type png)
@@ -1479,7 +1482,7 @@ fect.png  used on input line 107.
 
 [33 <./codes/codes_sin_3_and_smoothening/figs/varying_tau_effect.png> <./codes/
 codes_sin_3_and_smoothening/figs/varying_T_pi_effect.png>]
-<codes/codes_sin_3_and_smoothening/figs/scaling_factor_analysis.png, id=721, 86
+<codes/codes_sin_3_and_smoothening/figs/scaling_factor_analysis.png, id=732, 86
 7.24pt x 433.62pt>
 File: codes/codes_sin_3_and_smoothening/figs/scaling_factor_analysis.png Graphi
 c file (type png)
@@ -1487,7 +1490,7 @@ c file (type png)
 Package pdftex.def Info: codes/codes_sin_3_and_smoothening/figs/scaling_factor_
 analysis.png  used on input line 127.
 (pdftex.def)             Requested size: 408.50307pt x 204.25134pt.
-<codes/codes_sin_3_and_smoothening/figs/scaling_factor_analysis_T.png, id=722, 
+<codes/codes_sin_3_and_smoothening/figs/scaling_factor_analysis_T.png, id=733, 
 867.24pt x 433.62pt>
 File: codes/codes_sin_3_and_smoothening/figs/scaling_factor_analysis_T.png Grap
 hic file (type png)
@@ -1498,7 +1501,7 @@ analysis_T.png  used on input line 137.
 
 
 [34 <./codes/codes_sin_3_and_smoothening/figs/scaling_factor_analysis.png>]
-<codes/codes_sin_3_and_smoothening/figs/varying_T_effect.png, id=732, 867.24pt 
+<codes/codes_sin_3_and_smoothening/figs/varying_T_effect.png, id=743, 867.24pt 
 x 433.62pt>
 File: codes/codes_sin_3_and_smoothening/figs/varying_T_effect.png Graphic file 
 (type png)
@@ -1525,7 +1528,7 @@ Overfull \hbox (10.53323pt too wide) detected at line 42
 []
  []
 
-<codes/codes_sin_1_and_arcsin/figures/arcsin_properties.png, id=748, 650.43pt x
+<codes/codes_sin_1_and_arcsin/figures/arcsin_properties.png, id=760, 650.43pt x
  578.16pt>
 File: codes/codes_sin_1_and_arcsin/figures/arcsin_properties.png Graphic file (
 type png)
@@ -1554,7 +1557,7 @@ ct.png  used on input line 84.
 
 
 [39]
-<codes/codes_sin_1_and_arcsin/figures/comparison.png, id=767, 722.7pt x 433.62p
+<codes/codes_sin_1_and_arcsin/figures/comparison.png, id=778, 722.7pt x 433.62p
 t>
 File: codes/codes_sin_1_and_arcsin/figures/comparison.png Graphic file (type pn
 g)
@@ -1580,7 +1583,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--17
 
 
 [42]
-<codes/codes_sin_3_and_smoothening/figs/noisy_sin_plot.png, id=782, 722.7pt x 2
+<codes/codes_sin_3_and_smoothening/figs/noisy_sin_plot.png, id=794, 722.7pt x 2
 89.08pt>
 File: codes/codes_sin_3_and_smoothening/figs/noisy_sin_plot.png Graphic file (t
 ype png)
@@ -1588,7 +1591,7 @@ ype png)
 Package pdftex.def Info: codes/codes_sin_3_and_smoothening/figs/noisy_sin_plot.
 png  used on input line 41.
 (pdftex.def)             Requested size: 344.005pt x 137.60114pt.
-<codes/codes_sin_3_and_smoothening/figs/noisy_step_plot.png, id=783, 722.7pt x 
+<codes/codes_sin_3_and_smoothening/figs/noisy_step_plot.png, id=795, 722.7pt x 
 289.08pt>
 File: codes/codes_sin_3_and_smoothening/figs/noisy_step_plot.png Graphic file (
 type png)
@@ -1599,7 +1602,7 @@ Package pdftex.def Info: codes/codes_sin_3_and_smoothening/figs/noisy_step_plot
 
 
 [43 <./codes/codes_sin_3_and_smoothening/figs/noisy_sin_plot.png>]
-<codes/codes_sin_3_and_smoothening/figs/noisy_square_plot.png, id=791, 722.7pt 
+<codes/codes_sin_3_and_smoothening/figs/noisy_square_plot.png, id=802, 722.7pt 
 x 289.08pt>
 File: codes/codes_sin_3_and_smoothening/figs/noisy_square_plot.png Graphic file
  (type png)
@@ -1607,7 +1610,7 @@ File: codes/codes_sin_3_and_smoothening/figs/noisy_square_plot.png Graphic file
 Package pdftex.def Info: codes/codes_sin_3_and_smoothening/figs/noisy_square_pl
 ot.png  used on input line 57.
 (pdftex.def)             Requested size: 344.005pt x 137.60114pt.
-<codes/codes_sin_3_and_smoothening/figs/noisy_ramp_plot.png, id=792, 722.7pt x 
+<codes/codes_sin_3_and_smoothening/figs/noisy_ramp_plot.png, id=803, 722.7pt x 
 289.08pt>
 File: codes/codes_sin_3_and_smoothening/figs/noisy_ramp_plot.png Graphic file (
 type png)
@@ -1619,7 +1622,7 @@ Package pdftex.def Info: codes/codes_sin_3_and_smoothening/figs/noisy_ramp_plot
 
 [44 <./codes/codes_sin_3_and_smoothening/figs/noisy_step_plot.png> <./codes/cod
 es_sin_3_and_smoothening/figs/noisy_square_plot.png>]
-<codes/codes_sin_3_and_smoothening/figs/noisy_decay_plot.png, id=801, 722.7pt x
+<codes/codes_sin_3_and_smoothening/figs/noisy_decay_plot.png, id=812, 722.7pt x
  289.08pt>
 File: codes/codes_sin_3_and_smoothening/figs/noisy_decay_plot.png Graphic file 
 (type png)
@@ -1627,7 +1630,7 @@ File: codes/codes_sin_3_and_smoothening/figs/noisy_decay_plot.png Graphic file
 Package pdftex.def Info: codes/codes_sin_3_and_smoothening/figs/noisy_decay_plo
 t.png  used on input line 73.
 (pdftex.def)             Requested size: 344.005pt x 137.60114pt.
-<codes/codes_sin_3_and_smoothening/figs/noisy_gaussian_plot.png, id=802, 722.7p
+<codes/codes_sin_3_and_smoothening/figs/noisy_gaussian_plot.png, id=813, 722.7p
 t x 289.08pt>
 File: codes/codes_sin_3_and_smoothening/figs/noisy_gaussian_plot.png Graphic fi
 le (type png)
@@ -1639,7 +1642,7 @@ plot.png  used on input line 81.
 
 [45 <./codes/codes_sin_3_and_smoothening/figs/noisy_ramp_plot.png> <./codes/cod
 es_sin_3_and_smoothening/figs/noisy_decay_plot.png>]
-<codes/codes_sin_3_and_smoothening/figs/fourier_box_N50.png, id=811, 867.24pt x
+<codes/codes_sin_3_and_smoothening/figs/fourier_box_N50.png, id=822, 867.24pt x
  433.62pt>
 File: codes/codes_sin_3_and_smoothening/figs/fourier_box_N50.png Graphic file (
 type png)
@@ -1650,7 +1653,7 @@ Package pdftex.def Info: codes/codes_sin_3_and_smoothening/figs/fourier_box_N50
 
 
 [46 <./codes/codes_sin_3_and_smoothening/figs/noisy_gaussian_plot.png>]
-<codes/codes_sin_3_and_smoothening/figs/fourier_box_N100.png, id=821, 867.24pt 
+<codes/codes_sin_3_and_smoothening/figs/fourier_box_N100.png, id=833, 867.24pt 
 x 433.62pt>
 File: codes/codes_sin_3_and_smoothening/figs/fourier_box_N100.png Graphic file 
 (type png)
@@ -1671,16 +1674,16 @@ L3 programming layer <2025-01-18>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 04188C809D0B660B29AACCD2138D6A93;15347.
+(rerunfilecheck)             Checksum: 89CCA9EB78D898F73E1FDAF5128DC4B9;15479.
  ) 
 Here is how much of TeX's memory you used:
- 46748 strings out of 473190
- 1056962 string characters out of 5692361
- 1645731 words of memory out of 5000000
- 69185 multiletter control sequences out of 15000+600000
- 581799 words of font info for 115 fonts, out of 8000000 for 9000
+ 46755 strings out of 473190
+ 1057036 string characters out of 5692361
+ 1644729 words of memory out of 5000000
+ 69187 multiletter control sequences out of 15000+600000
+ 582106 words of font info for 116 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,16n,93p,746b,545s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,16n,93p,746b,546s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/texlive/2025/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol12.pfb></op
 t/texlive/2025/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol8.pfb></opt/texli
 ve/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></opt/texlive/2025
@@ -1689,13 +1692,12 @@ dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></opt/texlive/2025/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmmi8.pfb></opt/texlive/2025/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmr10.pfb></opt/texlive/2025/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmr12.pfb></opt/texlive/2025/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr17.pfb></opt/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6
-.pfb></opt/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></op
-t/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main.pdf (47 pages, 4796401 bytes).
+/cm/cmr6.pfb></opt/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.
+pfb></opt/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on main.pdf (48 pages, 4788023 bytes).
 PDF statistics:
- 965 PDF objects out of 1000 (max. 8388607)
- 802 compressed objects within 9 object streams
- 271 named destinations out of 1000 (max. 500000)
- 798 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 972 PDF objects out of 1000 (max. 8388607)
+ 810 compressed objects within 9 object streams
+ 276 named destinations out of 1000 (max. 500000)
+ 806 words of extra memory for PDF output out of 10000 (max. 10000000)
 
