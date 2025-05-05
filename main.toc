@@ -1,0 +1,35 @@
+\contentsline {section}{\numberline {1}Step Signal as $f(t)$}{3}{section.1}%
+\contentsline {subsubsection}{\numberline {1.0.1}Interpretation:}{3}{subsubsection.1.0.1}%
+\contentsline {subsection}{\numberline {1.1}Solution Using Step Function}{3}{subsection.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.1}Standard Convolution \( y(t) = (f * h)(t) \)}{3}{subsubsection.1.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.2}Behavior Analysis:}{4}{subsubsection.1.1.2}%
+\contentsline {subsubsection}{\numberline {1.1.3}Modified Kernel (Only \( t > 0 \)) (Part a)}{5}{subsubsection.1.1.3}%
+\contentsline {subsubsection}{\numberline {1.1.4}Comparison with Original Kernel:}{6}{subsubsection.1.1.4}%
+\contentsline {subsubsection}{\numberline {1.1.5}Shifted Kernel by \( \tau _0 \) (Part b)}{7}{subsubsection.1.1.5}%
+\contentsline {subsubsection}{\numberline {1.1.6}Significance in Time-Delayed Systems:}{7}{subsubsection.1.1.6}%
+\contentsline {subsection}{\numberline {1.2}Conclusion}{8}{subsection.1.2}%
+\contentsline {subsubsection}{\numberline {1.2.1}Comparision of all cases}{8}{subsubsection.1.2.1}%
+\contentsline {section}{\numberline {2}Exponential as $f(t)$}{8}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Standard Convolution}{9}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}General Solution}{9}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}Time Domain Analysis}{10}{subsubsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.2}Modified Kernel (t $>$ 0)}{11}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Kernel Definition}{11}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Convolution Result}{11}{subsubsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.3}Time-Shifted Kernel}{13}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}Kernel Definition}{13}{subsubsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.2}Convolution Result}{14}{subsubsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.4}Conclusion}{15}{subsection.2.4}%
+\contentsline {subsubsection}{\numberline {2.4.1}Time-Invariance Analysis}{15}{subsubsection.2.4.1}%
+\contentsline {section}{\numberline {3}Sinusoidal as $f(t)$ with Half-Box Kernel}{17}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Modify the kernel to only consider the part of the kernel for \( t > 0 \). How does this affect the convolution result?}{17}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Analytic}{17}{subsubsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.2}Extended Graphical and Analytical Analysis}{19}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Effect of Amplitude \( A \)}{19}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Effect of Angular Frequency \( \omega \)}{19}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}Effect of Pulse Width \( T \)}{19}{subsubsection.3.2.3}%
+\contentsline {subsubsection}{\numberline {3.2.4}Amplitude Ratio vs Angular Frequency}{20}{subsubsection.3.2.4}%
+\contentsline {subsubsection}{\numberline {3.2.5}Effect of Phase \( \phi \)}{20}{subsubsection.3.2.5}%
+\contentsline {subsubsection}{\numberline {3.2.6}Special Observations}{20}{subsubsection.3.2.6}%
+\contentsline {subsection}{\numberline {3.3}Convolution with Varying Parameters}{21}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Conclusion}{21}{subsection.3.4}%

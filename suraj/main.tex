@@ -1,0 +1,330 @@
+\documentclass[12pt,a4paper,titlepage]{article}
+\usepackage{amsmath}
+\usepackage{geometry}
+\geometry{margin=1in}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+
+\usepackage{savetrees}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{xcolor}  % For color
+\usepackage{comment} %self-explanatory
+\usepackage{multirow} %for subrows in a column
+\usepackage{listings}%for including spice code
+\usepackage{gensymb}
+\parindent 0px
+\usepackage{diagbox}
+\usepackage{subfigure}
+\usepackage{setspace}
+\usepackage{listings}
+\usepackage{xcolor}
+\onehalfspacing
+\usepackage{subcaption}
+\usepackage{pythontex}
+\usepackage{subfig}
+\usepackage{subfigure}
+\usepackage{circuitikz}
+\usepackage{graphicx} % For resizing the diagram with \resizebox
+\usepackage{parskip}
+\usepackage{float}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{amsmath}
+\usepackage{hyperref} % Clickable links
+  % Advanced color options
+% Blue headings using titlesec and xcolor
+\titleformat{\section}
+  {\normalfont\LARGE\bfseries\color{blue}}{\thesection}{1em}{}
+\titleformat{\subsection}
+  {\normalfont\Large\bfseries\color{blue}}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}
+  {\normalfont\large\bfseries\color{blue}}{\thesubsubsection}{1em}{}
+\lstdefinelanguage{Verilog}{
+  keywords=[1]{module, endmodule, input, output, reg, wire, always, begin, end, case, casez, default, assign, if, else},
+  keywordstyle=[1]\color{blue}\bfseries,
+  morecomment=[l]{//},
+  morecomment=[s]{/*}{*/},
+  morestring=[b]",
+  sensitive=true
+}
+
+\lstset{
+  language=Verilog,
+  basicstyle=\small\scriptsize,
+  keywordstyle=\color{blue},
+  commentstyle=\color{gray}\ttfamily,
+  stringstyle=\color{red},
+  numbers=left,
+  numberstyle=\tiny\color{gray},
+  stepnumber=1,
+  numbersep=5pt,
+  backgroundcolor=\color{white},
+  showspaces=false,
+  showstringspaces=false,
+  frame=single,
+  tabsize=2,
+  captionpos=b
+}
+
+% Title page info
+\title{\textbf{ }}
+\author{
+    Kolluru Suraj \\
+    Roll Number: EE24btech11033
+}
+\date{\today}
+
+% Header and footer
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Kolluru Suraj / EE24btech11033}
+\cfoot{\thepage}
+
+\begin{document}
+
+\maketitle
+
+\section*{1. Problem Statement}
+
+\subsection*{1.1 Convolution with a Rectangular Kernel}
+Compute the convolution of a given signal \( f(t) \) with a rectangular kernel \( h(t) \), analytically. The rectangular kernel is defined as:
+
+\begin{equation}
+h(t) = 
+\begin{cases} 
+1, & \text{for } -T \leq t \leq T \\
+0, & \text{otherwise}
+\end{cases}
+\end{equation}
+
+Derive the convolution expression \( y(t) = (f * h)(t) \) in terms of known functions, and analyze the system's behavior for various values of the kernel duration \( T \) and the input signal \( f(t) \).
+
+Additionally, investigate the following scenarios:
+
+\begin{enumerate}
+    \item[(a)] Modify the kernel to only consider the part for \( t > 0 \). How does this affect the convolution result?
+    \item[(b)] Shift the kernel by a time \( \tau_0 \). Analyze how the shift impacts the convolution output and discuss its significance in time-delayed systems.
+\end{enumerate}
+
+\textbf{Choice of Input Signal:}\\
+For this analysis, we choose the \textbf{unit step function} as the input signal:
+
+\begin{equation}
+f(t) = u(t) = 
+\begin{cases} 
+1, & t \geq 0 \\
+0, & t < 0 
+\end{cases}
+\end{equation}
+
+\section*{2. Convolution Basics}
+
+The convolution of two signals \( f(t) \) and \( h(t) \) is defined as:
+
+\begin{equation}
+y(t) = (f * h)(t) = \int_{-\infty}^{\infty} f(\tau) h(t - \tau) \, d\tau
+\end{equation}
+
+\subsection*{Interpretation:}
+\begin{itemize}
+    \item The output \( y(t) \) represents how the shape of \( f(t) \) is modified by \( h(t) \).
+    \item The rectangular kernel \( h(t) \) acts as a moving average filter.
+\end{itemize}
+
+\section*{3. Solution Using Step Function}
+
+\subsection*{3.1 Standard Convolution \( y(t) = (f * h)(t) \)}
+
+Given:
+\begin{itemize}
+    \item \( f(t) = u(t) \) (step function)
+    \item \( h(t) \) is a rectangular pulse centered at \( t = 0 \) with width \( 2T \).
+\end{itemize}
+
+The convolution integral is evaluated in three regions:
+
+\begin{enumerate}
+    \item \textbf{For \( t < -T \):}
+    \begin{itemize}
+        \item The kernel \( h(t - \tau) \) and \( u(\tau) \) do not overlap.
+        \item Thus:
+    \end{itemize}
+    
+    \begin{align}
+        y(t) &= \int_{-\infty}^{\infty} u(\tau) h(t - \tau) \, d\tau \\
+        &= \int_{0}^{\infty} 1 \cdot h(t - \tau) \, d\tau \\
+        &= 0 \quad \text{(No overlap when $t < -T$)}
+    \end{align}
+    
+    \item \textbf{For \( -T \leq t \leq T \):}
+    \begin{itemize}
+        \item The kernel partially overlaps \( u(\tau) \) from \( \tau = 0 \) to \( \tau = t + T \).
+    \end{itemize}
+    
+    \begin{align}
+        y(t) &= \int_{-\infty}^{\infty} u(\tau) h(t - \tau) \, d\tau \\
+        &= \int_{0}^{\infty} 1 \cdot h(t - \tau) \, d\tau \\
+        &= \int_{0}^{t+T} 1 \cdot 1 \, d\tau \quad \text{(Since $h(t-\tau)=1$ when $-T \leq t-\tau \leq T$)} \\
+        &= [{\tau}]_{0}^{t+T} \\
+        &= t + T
+    \end{align}
+    
+    \item \textbf{For \( t > T \):}
+    \begin{itemize}
+        \item The kernel fully overlaps \( u(\tau) \) over a width of \( 2T \).
+    \end{itemize}
+    
+    \begin{align}
+        y(t) &= \int_{-\infty}^{\infty} u(\tau) h(t - \tau) \, d\tau \\
+        &= \int_{0}^{\infty} 1 \cdot h(t - \tau) \, d\tau \\
+        &= \int_{t-T}^{t+T} 1 \, d\tau \quad \text{(Since $h(t-\tau)=1$ when $t-T \leq \tau \leq t+T$)} \\
+        &= [{\tau}]_{t-T}^{t+T} \\
+        &= (t+T) - (t-T) \\
+        &= 2T
+    \end{align}
+\end{enumerate}
+
+\textbf{Final Result:}
+\begin{equation}
+y(t) = 
+\begin{cases} 
+0, & t < -T \\
+t + T, & -T \leq t \leq T \\
+2T, & t > T 
+\end{cases}
+\end{equation}
+
+\subsection*{Behavior Analysis:}
+\begin{itemize}
+    \item The output is zero before \( t = -T \).
+    \item A linear ramp occurs from \( t = -T \) to \( t = T \).
+    \item The output saturates at \( 2T \) for \( t > T \).
+    \item A larger \( T \) results in a wider ramp and higher saturation value.
+\end{itemize}
+Here is plot showing the results
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\linewidth]{plotsstep/case1step.png}
+    \label{fig:enter-label}
+\end{figure}
+\subsection*{3.2 Modified Kernel (Only \( t > 0 \)) (Part a)}
+
+The modified kernel is:
+\begin{equation}
+h_{mod}(t) = 
+\begin{cases} 
+1, & 0 \leq t \leq T \\
+0, & \text{otherwise}
+\end{cases}
+\end{equation}
+
+\textbf{Convolution Analysis:}
+
+\begin{enumerate}
+    \item \textbf{For \( t < 0 \):}
+    \begin{align}
+        y(t) &= \int_{-\infty}^{\infty} u(\tau) h_{mod}(t - \tau) \, d\tau \\
+        &= 0 \quad \text{(No overlap when $t < 0$)}
+    \end{align}
+    
+    \item \textbf{For \( 0 \leq t \leq T \):}
+    \begin{align}
+        y(t) &= \int_{-\infty}^{\infty} u(\tau) h_{mod}(t - \tau) \, d\tau \\
+        &= \int_{0}^{t} 1 \cdot 1 \, d\tau \quad \text{(Overlap from $\tau = 0$ to $\tau = t$)} \\
+        &= [{\tau}]_{0}^{t} \\
+        &= t
+    \end{align}
+    
+    \item \textbf{For \( t > T \):}
+    \begin{align}
+        y(t) &= \int_{-\infty}^{\infty} u(\tau) h_{mod}(t - \tau) \, d\tau \\
+        &= \int_{t-T}^{t} 1 \cdot 1 \, d\tau \quad \text{(Full overlap from $\tau = t-T$ to $\tau = t$)} \\
+        &= [{\tau}]_{t-T}^{t} \\
+        &= t - (t-T) \\
+        &= T
+    \end{align}
+\end{enumerate}
+
+\textbf{Result:}
+\begin{equation}
+y(t) = 
+\begin{cases} 
+0, & t < 0 \\
+t, & 0 \leq t \leq T \\
+T, & t > T 
+\end{cases}
+\end{equation}
+Here is a plot showing the results
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\linewidth]{plotsstep/case2step.png}
+    \caption{Modified kernel}
+    \label{fig:enter-label}
+\end{figure}
+\subsection*{Comparison with Original Kernel:}
+\begin{itemize}
+    \item The response is now \textbf{causal} (output depends only on past/current inputs).
+    \item The ramp is shorter (from \( 0 \) to \( T \)) compared to the original (\( -T \) to \( T \)).
+    \item The steady-state value is \( T \) instead of \( 2T \).
+\end{itemize}
+
+\subsection*{3.3 Shifted Kernel by \( \tau_0 \) (Part b)}
+
+The shifted kernel is:
+\begin{equation}
+h_{shift}(t) = 
+\begin{cases} 
+1, & -T + \tau_0 \leq t \leq T + \tau_0 \\
+0, & \text{otherwise}
+\end{cases}
+\end{equation}
+
+Applying the time-shift property of convolution:
+\begin{align}
+f(t) * h(t-\tau_0) = (f(t) * h(t))_{t \rightarrow t-\tau_0}
+\end{align}
+
+The convolution output is simply the original \( y(t) \) delayed by \( \tau_0 \):
+
+\begin{equation}
+y_{shift}(t) = y(t - \tau_0) = 
+\begin{cases} 
+0, & t < -T + \tau_0 \\
+(t - \tau_0) + T, & -T + \tau_0 \leq t \leq T + \tau_0 \\
+2T, & t > T + \tau_0 
+\end{cases}
+\end{equation}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\linewidth]{plotsstep/case3step.png}
+    \caption{shifted kernel}
+    \label{fig:enter-label}
+\end{figure}
+\subsection*{Significance in Time-Delayed Systems:}
+\begin{itemize}
+    \item The shift \( \tau_0 \) introduces a \textbf{time delay} in the system's response.
+    \item For \( \tau_0 > 0 \), the response is delayed (system responds later).
+    \item For \( \tau_0 < 0 \), the response is advanced (system responds earlier).
+    \item Important in control systems, signal processing, and communications where delays affect stability and synchronization.
+\end{itemize}
+
+\section*{4. Conclusion}
+
+\begin{itemize}
+    \item The convolution of a step function with a rectangular kernel produces a \textbf{piecewise linear} output.
+    \item Modifying the kernel to be \textbf{causal} changes the response to depend only on past inputs.
+    \item Shifting the kernel introduces a \textbf{time delay}, which is crucial in real-world systems.
+    \item The kernel width \( T \) directly affects the steady-state value and transition time of the output.
+\end{itemize}
+
+This analysis demonstrates how different kernel modifications affect signal processing outcomes and provides insight into the behavior of linear time-invariant systems.
+\subsection*{Comparision of all cases}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\linewidth]{plotsstep/comparsionof123.png}
+    \caption{Comparision of all cases}
+    \label{fig:enter-label}
+\end{figure}
+\end{document}
